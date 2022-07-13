@@ -324,6 +324,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194229}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -403,7 +404,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0af28b6cebd8a8d4d826b4dcfee894fc, type: 3}
   m_Name: 
@@ -412,6 +413,19 @@ MonoBehaviour:
   diamondBlock: {fileID: 6679874657767673278, guid: 9220887853a74b54d82b0603a632915f, type: 3}
   cubeContainer: {fileID: 1298397787}
   populationManager: {fileID: 676770889121185539, guid: 7786b45f5f5ac8f4fbebda5d3a884337, type: 3}
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb2eaf7003c4a8c4ebb92270cd952cb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cube: {fileID: 5774565531587369162, guid: 27086dad244c64d41a72137ce70500d8, type: 3}
 --- !u!1 &1298397786
 GameObject:
   m_ObjectHideFlags: 0
